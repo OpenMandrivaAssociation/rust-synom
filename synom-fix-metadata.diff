@@ -1,0 +1,14 @@
+--- synom-0.11.3/Cargo.toml	2017-03-02T00:54:51+01:00
++++ synom-0.11.3/Cargo.toml	2018-10-30T15:29:55.915224+01:00
+@@ -11,10 +11,9 @@
+ include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+ 
+ [dependencies]
+-unicode-xid = "0.0.4"
++unicode-xid = "0.1"
+ 
+ [dev-dependencies.syn]
+ version = "0.11"
+-path = ".."
+ features = ["parsing", "full"]
+ default-features = false
